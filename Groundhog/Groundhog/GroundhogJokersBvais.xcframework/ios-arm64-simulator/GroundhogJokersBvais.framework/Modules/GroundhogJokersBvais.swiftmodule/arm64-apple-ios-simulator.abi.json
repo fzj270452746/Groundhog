@@ -1,0 +1,3623 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "GroundhogJokersBvais",
+    "printedName": "GroundhogJokersBvais",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GroundhogJokersBvais"
+      },
+      {
+        "kind": "Import",
+        "name": "SDWebImage",
+        "printedName": "SDWebImage",
+        "declKind": "Import",
+        "moduleName": "GroundhogJokersBvais"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GroundhogJieesDadView",
+        "printedName": "GroundhogJieesDadView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "groundhogComponents",
+            "printedName": "groundhogComponents",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[GroundhogJokersBvais.GroundhogCircuitComponent]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GroundhogCircuitComponent",
+                    "printedName": "GroundhogJokersBvais.GroundhogCircuitComponent",
+                    "usr": "s:20GroundhogJokersBvais0A16CircuitComponent33_09753FA82C0563EE77CC14D14E5D4F7ELLV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20GroundhogJokersBvais0A12JieesDadViewC19groundhogComponents33_09753FA82C0563EE77CC14D14E5D4F7ELLSayAA0A16CircuitComponentAELLVGvp",
+            "mangledName": "$s20GroundhogJokersBvais0A12JieesDadViewC19groundhogComponents33_09753FA82C0563EE77CC14D14E5D4F7ELLSayAA0A16CircuitComponentAELLVGvp",
+            "moduleName": "GroundhogJokersBvais",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "groundhogWires",
+            "printedName": "groundhogWires",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[GroundhogJokersBvais.GroundhogWire]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GroundhogWire",
+                    "printedName": "GroundhogJokersBvais.GroundhogWire",
+                    "usr": "s:20GroundhogJokersBvais0A4WireV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20GroundhogJokersBvais0A12JieesDadViewC14groundhogWires33_09753FA82C0563EE77CC14D14E5D4F7ELLSayAA0A4WireVGvp",
+            "mangledName": "$s20GroundhogJokersBvais0A12JieesDadViewC14groundhogWires33_09753FA82C0563EE77CC14D14E5D4F7ELLSayAA0A4WireVGvp",
+            "moduleName": "GroundhogJokersBvais",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "groundhogSelectedComponent",
+            "printedName": "groundhogSelectedComponent",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "GroundhogJokersBvais.GroundhogCircuitComponent?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GroundhogCircuitComponent",
+                    "printedName": "GroundhogJokersBvais.GroundhogCircuitComponent",
+                    "usr": "s:20GroundhogJokersBvais0A16CircuitComponent33_09753FA82C0563EE77CC14D14E5D4F7ELLV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20GroundhogJokersBvais0A12JieesDadViewC26groundhogSelectedComponent33_09753FA82C0563EE77CC14D14E5D4F7ELLAA0a7CircuitI0AELLVSgvp",
+            "mangledName": "$s20GroundhogJokersBvais0A12JieesDadViewC26groundhogSelectedComponent33_09753FA82C0563EE77CC14D14E5D4F7ELLAA0a7CircuitI0AELLVSgvp",
+            "moduleName": "GroundhogJokersBvais",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 2,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "groundhogAvailableWires",
+            "printedName": "groundhogAvailableWires",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20GroundhogJokersBvais0A12JieesDadViewC23groundhogAvailableWires33_09753FA82C0563EE77CC14D14E5D4F7ELLSivp",
+            "mangledName": "$s20GroundhogJokersBvais0A12JieesDadViewC23groundhogAvailableWires33_09753FA82C0563EE77CC14D14E5D4F7ELLSivp",
+            "moduleName": "GroundhogJokersBvais",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 3,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "groundhogIsConnecting",
+            "printedName": "groundhogIsConnecting",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20GroundhogJokersBvais0A12JieesDadViewC21groundhogIsConnecting33_09753FA82C0563EE77CC14D14E5D4F7ELLSbvp",
+            "mangledName": "$s20GroundhogJokersBvais0A12JieesDadViewC21groundhogIsConnecting33_09753FA82C0563EE77CC14D14E5D4F7ELLSbvp",
+            "moduleName": "GroundhogJokersBvais",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 4,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "groundhogBatteryImage",
+            "printedName": "groundhogBatteryImage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20GroundhogJokersBvais0A12JieesDadViewC21groundhogBatteryImage33_09753FA82C0563EE77CC14D14E5D4F7ELLSo7UIImageCSgvp",
+            "mangledName": "$s20GroundhogJokersBvais0A12JieesDadViewC21groundhogBatteryImage33_09753FA82C0563EE77CC14D14E5D4F7ELLSo7UIImageCSgvp",
+            "moduleName": "GroundhogJokersBvais",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 5,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "groundhogDeviceImage",
+            "printedName": "groundhogDeviceImage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20GroundhogJokersBvais0A12JieesDadViewC20groundhogDeviceImage33_09753FA82C0563EE77CC14D14E5D4F7ELLSo7UIImageCSgvp",
+            "mangledName": "$s20GroundhogJokersBvais0A12JieesDadViewC20groundhogDeviceImage33_09753FA82C0563EE77CC14D14E5D4F7ELLSo7UIImageCSgvp",
+            "moduleName": "GroundhogJokersBvais",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 6,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "groundhogConnectorImage",
+            "printedName": "groundhogConnectorImage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20GroundhogJokersBvais0A12JieesDadViewC23groundhogConnectorImage33_09753FA82C0563EE77CC14D14E5D4F7ELLSo7UIImageCSgvp",
+            "mangledName": "$s20GroundhogJokersBvais0A12JieesDadViewC23groundhogConnectorImage33_09753FA82C0563EE77CC14D14E5D4F7ELLSo7UIImageCSgvp",
+            "moduleName": "GroundhogJokersBvais",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 7,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "groundhogConnectorImageView",
+            "printedName": "groundhogConnectorImageView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIImageView",
+                "printedName": "UIKit.UIImageView",
+                "usr": "c:objc(cs)UIImageView"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20GroundhogJokersBvais0A12JieesDadViewC023groundhogConnectorImageF033_09753FA82C0563EE77CC14D14E5D4F7ELLSo07UIImageF0Cvp",
+            "mangledName": "$s20GroundhogJokersBvais0A12JieesDadViewC023groundhogConnectorImageF033_09753FA82C0563EE77CC14D14E5D4F7ELLSo07UIImageF0Cvp",
+            "moduleName": "GroundhogJokersBvais",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 8,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "groundhogNannatyauBeiVC",
+            "printedName": "groundhogNannatyauBeiVC",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20GroundhogJokersBvais0A12JieesDadViewC23groundhogNannatyauBeiVC33_09753FA82C0563EE77CC14D14E5D4F7ELLSo16UIViewControllerCSgvp",
+            "mangledName": "$s20GroundhogJokersBvais0A12JieesDadViewC23groundhogNannatyauBeiVC33_09753FA82C0563EE77CC14D14E5D4F7ELLSo16UIViewControllerCSgvp",
+            "moduleName": "GroundhogJokersBvais",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 9,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "$__lazy_storage_$_groundhogWiresLabel",
+            "printedName": "$__lazy_storage_$_groundhogWiresLabel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UILabel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UILabel",
+                    "printedName": "UIKit.UILabel",
+                    "usr": "c:objc(cs)UILabel"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20GroundhogJokersBvais0A12JieesDadViewC37$__lazy_storage_$_groundhogWiresLabel33_09753FA82C0563EE77CC14D14E5D4F7ELLSo7UILabelCSgvp",
+            "mangledName": "$s20GroundhogJokersBvais0A12JieesDadViewC37$__lazy_storage_$_groundhogWiresLabel33_09753FA82C0563EE77CC14D14E5D4F7ELLSo7UILabelCSgvp",
+            "moduleName": "GroundhogJokersBvais",
+            "implicit": true,
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 10,
+            "hasStorage": true
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GroundhogJieesDadView",
+                "printedName": "GroundhogJokersBvais.GroundhogJieesDadView",
+                "usr": "c:@M@GroundhogJokersBvais@objc(cs)GroundhogJieesDadView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20GroundhogJokersBvais0A12JieesDadViewC5frame_ACSo6CGRectV_So16UIViewControllerCtcfc",
+            "mangledName": "$s20GroundhogJokersBvais0A12JieesDadViewC5frame_ACSo6CGRectV_So16UIViewControllerCtcfc",
+            "moduleName": "GroundhogJokersBvais",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GroundhogJieesDadView",
+                "printedName": "GroundhogJokersBvais.GroundhogJieesDadView",
+                "usr": "c:@M@GroundhogJokersBvais@objc(cs)GroundhogJieesDadView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@GroundhogJokersBvais@objc(cs)GroundhogJieesDadView(im)initWithFrame:",
+            "mangledName": "$s20GroundhogJokersBvais0A12JieesDadViewC5frameACSo6CGRectV_tcfc",
+            "moduleName": "GroundhogJokersBvais",
+            "overriding": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "GroundhogJokersBvais.GroundhogJieesDadView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GroundhogJieesDadView",
+                    "printedName": "GroundhogJokersBvais.GroundhogJieesDadView",
+                    "usr": "c:@M@GroundhogJokersBvais@objc(cs)GroundhogJieesDadView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@GroundhogJokersBvais@objc(cs)GroundhogJieesDadView(im)initWithCoder:",
+            "mangledName": "$s20GroundhogJokersBvais0A12JieesDadViewC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "GroundhogJokersBvais",
+            "overriding": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "draw",
+            "printedName": "draw(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@GroundhogJokersBvais@objc(cs)GroundhogJieesDadView(im)drawRect:",
+            "mangledName": "$s20GroundhogJokersBvais0A12JieesDadViewC4drawyySo6CGRectVF",
+            "moduleName": "GroundhogJokersBvais",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "drawRect:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "groundhogCurrentTouchPoint",
+            "printedName": "groundhogCurrentTouchPoint",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreFoundation.CGPoint?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGPoint",
+                    "printedName": "CoreFoundation.CGPoint",
+                    "usr": "c:@S@CGPoint"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20GroundhogJokersBvais0A12JieesDadViewC26groundhogCurrentTouchPoint33_09753FA82C0563EE77CC14D14E5D4F7ELLSo7CGPointVSgvp",
+            "mangledName": "$s20GroundhogJokersBvais0A12JieesDadViewC26groundhogCurrentTouchPoint33_09753FA82C0563EE77CC14D14E5D4F7ELLSo7CGPointVSgvp",
+            "moduleName": "GroundhogJokersBvais",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 11,
+            "hasStorage": true
+          },
+          {
+            "kind": "Function",
+            "name": "touchesBegan",
+            "printedName": "touchesBegan(_:with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "Swift.Set<UIKit.UITouch>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UITouch",
+                    "printedName": "UIKit.UITouch",
+                    "usr": "c:objc(cs)UITouch"
+                  }
+                ],
+                "usr": "s:Sh"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIEvent?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIEvent",
+                    "printedName": "UIKit.UIEvent",
+                    "usr": "c:objc(cs)UIEvent"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@GroundhogJokersBvais@objc(cs)GroundhogJieesDadView(im)touchesBegan:withEvent:",
+            "mangledName": "$s20GroundhogJokersBvais0A12JieesDadViewC12touchesBegan_4withyShySo7UITouchCG_So7UIEventCSgtF",
+            "moduleName": "GroundhogJokersBvais",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "touchesBegan:withEvent:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "touchesMoved",
+            "printedName": "touchesMoved(_:with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "Swift.Set<UIKit.UITouch>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UITouch",
+                    "printedName": "UIKit.UITouch",
+                    "usr": "c:objc(cs)UITouch"
+                  }
+                ],
+                "usr": "s:Sh"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIEvent?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIEvent",
+                    "printedName": "UIKit.UIEvent",
+                    "usr": "c:objc(cs)UIEvent"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@GroundhogJokersBvais@objc(cs)GroundhogJieesDadView(im)touchesMoved:withEvent:",
+            "mangledName": "$s20GroundhogJokersBvais0A12JieesDadViewC12touchesMoved_4withyShySo7UITouchCG_So7UIEventCSgtF",
+            "moduleName": "GroundhogJokersBvais",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "touchesMoved:withEvent:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "touchesEnded",
+            "printedName": "touchesEnded(_:with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "Swift.Set<UIKit.UITouch>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UITouch",
+                    "printedName": "UIKit.UITouch",
+                    "usr": "c:objc(cs)UITouch"
+                  }
+                ],
+                "usr": "s:Sh"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIEvent?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIEvent",
+                    "printedName": "UIKit.UIEvent",
+                    "usr": "c:objc(cs)UIEvent"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@GroundhogJokersBvais@objc(cs)GroundhogJieesDadView(im)touchesEnded:withEvent:",
+            "mangledName": "$s20GroundhogJokersBvais0A12JieesDadViewC12touchesEnded_4withyShySo7UITouchCG_So7UIEventCSgtF",
+            "moduleName": "GroundhogJokersBvais",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "touchesEnded:withEvent:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@GroundhogJokersBvais@objc(cs)GroundhogJieesDadView",
+        "mangledName": "$s20GroundhogJokersBvais0A12JieesDadViewC",
+        "moduleName": "GroundhogJokersBvais",
+        "isOpen": true,
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GroundhogWire",
+        "printedName": "GroundhogWire",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "startPoint",
+            "printedName": "startPoint",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGPoint",
+                "printedName": "CoreFoundation.CGPoint",
+                "usr": "c:@S@CGPoint"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20GroundhogJokersBvais0A4WireV10startPointSo7CGPointVvp",
+            "mangledName": "$s20GroundhogJokersBvais0A4WireV10startPointSo7CGPointVvp",
+            "moduleName": "GroundhogJokersBvais",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGPoint",
+                    "printedName": "CoreFoundation.CGPoint",
+                    "usr": "c:@S@CGPoint"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20GroundhogJokersBvais0A4WireV10startPointSo7CGPointVvg",
+                "mangledName": "$s20GroundhogJokersBvais0A4WireV10startPointSo7CGPointVvg",
+                "moduleName": "GroundhogJokersBvais",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "endPoint",
+            "printedName": "endPoint",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGPoint",
+                "printedName": "CoreFoundation.CGPoint",
+                "usr": "c:@S@CGPoint"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20GroundhogJokersBvais0A4WireV8endPointSo7CGPointVvp",
+            "mangledName": "$s20GroundhogJokersBvais0A4WireV8endPointSo7CGPointVvp",
+            "moduleName": "GroundhogJokersBvais",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGPoint",
+                    "printedName": "CoreFoundation.CGPoint",
+                    "usr": "c:@S@CGPoint"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20GroundhogJokersBvais0A4WireV8endPointSo7CGPointVvg",
+                "mangledName": "$s20GroundhogJokersBvais0A4WireV8endPointSo7CGPointVvg",
+                "moduleName": "GroundhogJokersBvais",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fromComponent",
+            "printedName": "fromComponent",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20GroundhogJokersBvais0A4WireV13fromComponentSSvp",
+            "mangledName": "$s20GroundhogJokersBvais0A4WireV13fromComponentSSvp",
+            "moduleName": "GroundhogJokersBvais",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 2,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20GroundhogJokersBvais0A4WireV13fromComponentSSvg",
+                "mangledName": "$s20GroundhogJokersBvais0A4WireV13fromComponentSSvg",
+                "moduleName": "GroundhogJokersBvais",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "toComponent",
+            "printedName": "toComponent",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20GroundhogJokersBvais0A4WireV11toComponentSSvp",
+            "mangledName": "$s20GroundhogJokersBvais0A4WireV11toComponentSSvp",
+            "moduleName": "GroundhogJokersBvais",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 3,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20GroundhogJokersBvais0A4WireV11toComponentSSvg",
+                "mangledName": "$s20GroundhogJokersBvais0A4WireV11toComponentSSvg",
+                "moduleName": "GroundhogJokersBvais",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isActive",
+            "printedName": "isActive",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20GroundhogJokersBvais0A4WireV8isActiveSbvp",
+            "mangledName": "$s20GroundhogJokersBvais0A4WireV8isActiveSbvp",
+            "moduleName": "GroundhogJokersBvais",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 4,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20GroundhogJokersBvais0A4WireV8isActiveSbvg",
+                "mangledName": "$s20GroundhogJokersBvais0A4WireV8isActiveSbvg",
+                "moduleName": "GroundhogJokersBvais",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20GroundhogJokersBvais0A4WireV8isActiveSbvs",
+                "mangledName": "$s20GroundhogJokersBvais0A4WireV8isActiveSbvs",
+                "moduleName": "GroundhogJokersBvais",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20GroundhogJokersBvais0A4WireV8isActiveSbvM",
+                "mangledName": "$s20GroundhogJokersBvais0A4WireV8isActiveSbvM",
+                "moduleName": "GroundhogJokersBvais",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(startPoint:endPoint:fromComponent:toComponent:isActive:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GroundhogWire",
+                "printedName": "GroundhogJokersBvais.GroundhogWire",
+                "usr": "s:20GroundhogJokersBvais0A4WireV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGPoint",
+                "printedName": "CoreFoundation.CGPoint",
+                "usr": "c:@S@CGPoint"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGPoint",
+                "printedName": "CoreFoundation.CGPoint",
+                "usr": "c:@S@CGPoint"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20GroundhogJokersBvais0A4WireV10startPoint03endF013fromComponent02toI08isActiveACSo7CGPointV_AJS2SSbtcfc",
+            "mangledName": "$s20GroundhogJokersBvais0A4WireV10startPoint03endF013fromComponent02toI08isActiveACSo7CGPointV_AJS2SSbtcfc",
+            "moduleName": "GroundhogJokersBvais",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:20GroundhogJokersBvais0A4WireV",
+        "mangledName": "$s20GroundhogJokersBvais0A4WireV",
+        "moduleName": "GroundhogJokersBvais",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GroundhogJokersBvais"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "GroundhogJokersBvais"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GroundhogNbauehViewController",
+        "printedName": "GroundhogNbauehViewController",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "droundhogMiaus",
+            "printedName": "droundhogMiaus",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "GroundhogJokersBvais.GroundhogFadirtb?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GroundhogFadirtb",
+                    "printedName": "GroundhogJokersBvais.GroundhogFadirtb",
+                    "usr": "s:20GroundhogJokersBvais0A7FadirtbV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20GroundhogJokersBvais0A20NbauehViewControllerC14droundhogMiausAA0A7FadirtbVSgvp",
+            "mangledName": "$s20GroundhogJokersBvais0A20NbauehViewControllerC14droundhogMiausAA0A7FadirtbVSgvp",
+            "moduleName": "GroundhogJokersBvais",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GroundhogJokersBvais.GroundhogFadirtb?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GroundhogFadirtb",
+                        "printedName": "GroundhogJokersBvais.GroundhogFadirtb",
+                        "usr": "s:20GroundhogJokersBvais0A7FadirtbV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20GroundhogJokersBvais0A20NbauehViewControllerC14droundhogMiausAA0A7FadirtbVSgvg",
+                "mangledName": "$s20GroundhogJokersBvais0A20NbauehViewControllerC14droundhogMiausAA0A7FadirtbVSgvg",
+                "moduleName": "GroundhogJokersBvais",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GroundhogJokersBvais.GroundhogFadirtb?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GroundhogFadirtb",
+                        "printedName": "GroundhogJokersBvais.GroundhogFadirtb",
+                        "usr": "s:20GroundhogJokersBvais0A7FadirtbV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20GroundhogJokersBvais0A20NbauehViewControllerC14droundhogMiausAA0A7FadirtbVSgvs",
+                "mangledName": "$s20GroundhogJokersBvais0A20NbauehViewControllerC14droundhogMiausAA0A7FadirtbVSgvs",
+                "moduleName": "GroundhogJokersBvais",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20GroundhogJokersBvais0A20NbauehViewControllerC14droundhogMiausAA0A7FadirtbVSgvM",
+                "mangledName": "$s20GroundhogJokersBvais0A20NbauehViewControllerC14droundhogMiausAA0A7FadirtbVSgvM",
+                "moduleName": "GroundhogJokersBvais",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "groundhogNmsues",
+            "printedName": "groundhogNmsues",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "WebKit.WKWebView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKWebView",
+                    "printedName": "WebKit.WKWebView",
+                    "usr": "c:objc(cs)WKWebView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20GroundhogJokersBvais0A20NbauehViewControllerC15groundhogNmsuesSo05WKWebE0CSgvp",
+            "mangledName": "$s20GroundhogJokersBvais0A20NbauehViewControllerC15groundhogNmsuesSo05WKWebE0CSgvp",
+            "moduleName": "GroundhogJokersBvais",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "WebKit.WKWebView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WKWebView",
+                        "printedName": "WebKit.WKWebView",
+                        "usr": "c:objc(cs)WKWebView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20GroundhogJokersBvais0A20NbauehViewControllerC15groundhogNmsuesSo05WKWebE0CSgvg",
+                "mangledName": "$s20GroundhogJokersBvais0A20NbauehViewControllerC15groundhogNmsuesSo05WKWebE0CSgvg",
+                "moduleName": "GroundhogJokersBvais",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "WebKit.WKWebView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WKWebView",
+                        "printedName": "WebKit.WKWebView",
+                        "usr": "c:objc(cs)WKWebView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20GroundhogJokersBvais0A20NbauehViewControllerC15groundhogNmsuesSo05WKWebE0CSgvs",
+                "mangledName": "$s20GroundhogJokersBvais0A20NbauehViewControllerC15groundhogNmsuesSo05WKWebE0CSgvs",
+                "moduleName": "GroundhogJokersBvais",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20GroundhogJokersBvais0A20NbauehViewControllerC15groundhogNmsuesSo05WKWebE0CSgvM",
+                "mangledName": "$s20GroundhogJokersBvais0A20NbauehViewControllerC15groundhogNmsuesSo05WKWebE0CSgvM",
+                "moduleName": "GroundhogJokersBvais",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@GroundhogJokersBvais@objc(cs)GroundhogNbauehViewController(im)viewDidLoad",
+            "mangledName": "$s20GroundhogJokersBvais0A20NbauehViewControllerC11viewDidLoadyyF",
+            "moduleName": "GroundhogJokersBvais",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLayoutSubviews",
+            "printedName": "viewDidLayoutSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@GroundhogJokersBvais@objc(cs)GroundhogNbauehViewController(im)viewDidLayoutSubviews",
+            "mangledName": "$s20GroundhogJokersBvais0A20NbauehViewControllerC21viewDidLayoutSubviewsyyF",
+            "moduleName": "GroundhogJokersBvais",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewDidLayoutSubviews",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:decidePolicyFor:decisionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKNavigationAction",
+                "printedName": "WebKit.WKNavigationAction",
+                "usr": "c:objc(cs)WKNavigationAction"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WebKit.WKNavigationActionPolicy) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigationActionPolicy",
+                    "printedName": "WebKit.WKNavigationActionPolicy",
+                    "usr": "c:@E@WKNavigationActionPolicy"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@GroundhogJokersBvais@objc(cs)GroundhogNbauehViewController(im)webView:decidePolicyForNavigationAction:decisionHandler:",
+            "mangledName": "$s20GroundhogJokersBvais0A20NbauehViewControllerC03webE0_15decidePolicyFor15decisionHandlerySo05WKWebE0C_So18WKNavigationActionCySo0noI0VctF",
+            "moduleName": "GroundhogJokersBvais",
+            "isOpen": true,
+            "objc_name": "webView:decidePolicyForNavigationAction:decisionHandler:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:createWebViewWith:for:windowFeatures:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "WebKit.WKWebView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKWebView",
+                    "printedName": "WebKit.WKWebView",
+                    "usr": "c:objc(cs)WKWebView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebViewConfiguration",
+                "printedName": "WebKit.WKWebViewConfiguration",
+                "usr": "c:objc(cs)WKWebViewConfiguration"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKNavigationAction",
+                "printedName": "WebKit.WKNavigationAction",
+                "usr": "c:objc(cs)WKNavigationAction"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWindowFeatures",
+                "printedName": "WebKit.WKWindowFeatures",
+                "usr": "c:objc(cs)WKWindowFeatures"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@GroundhogJokersBvais@objc(cs)GroundhogNbauehViewController(im)webView:createWebViewWithConfiguration:forNavigationAction:windowFeatures:",
+            "mangledName": "$s20GroundhogJokersBvais0A20NbauehViewControllerC03webE0_09createWebE4With3for14windowFeaturesSo05WKWebE0CSgAI_So0nE13ConfigurationCSo18WKNavigationActionCSo08WKWindowM0CtF",
+            "moduleName": "GroundhogJokersBvais",
+            "isOpen": true,
+            "objc_name": "webView:createWebViewWithConfiguration:forNavigationAction:windowFeatures:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "groundhogTuserNagfa",
+            "printedName": "groundhogTuserNagfa(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIButton",
+                "printedName": "UIKit.UIButton",
+                "usr": "c:objc(cs)UIButton"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@GroundhogJokersBvais@objc(cs)GroundhogNbauehViewController(im)groundhogTuserNagfa:",
+            "mangledName": "$s20GroundhogJokersBvais0A20NbauehViewControllerC19groundhogTuserNagfayySo8UIButtonCF",
+            "moduleName": "GroundhogJokersBvais",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webViewDidClose",
+            "printedName": "webViewDidClose(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@GroundhogJokersBvais@objc(cs)GroundhogNbauehViewController(im)webViewDidClose:",
+            "mangledName": "$s20GroundhogJokersBvais0A20NbauehViewControllerC03webE8DidCloseyySo05WKWebE0CF",
+            "moduleName": "GroundhogJokersBvais",
+            "isOpen": true,
+            "objc_name": "webViewDidClose:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "shouldAutorotate",
+            "printedName": "shouldAutorotate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@GroundhogJokersBvais@objc(cs)GroundhogNbauehViewController(py)shouldAutorotate",
+            "mangledName": "$s20GroundhogJokersBvais0A20NbauehViewControllerC16shouldAutorotateSbvp",
+            "moduleName": "GroundhogJokersBvais",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "shouldAutorotate",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@GroundhogJokersBvais@objc(cs)GroundhogNbauehViewController(im)shouldAutorotate",
+                "mangledName": "$s20GroundhogJokersBvais0A20NbauehViewControllerC16shouldAutorotateSbvg",
+                "moduleName": "GroundhogJokersBvais",
+                "overriding": true,
+                "isOpen": true,
+                "objc_name": "shouldAutorotate",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "supportedInterfaceOrientations",
+            "printedName": "supportedInterfaceOrientations",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIInterfaceOrientationMask",
+                "printedName": "UIKit.UIInterfaceOrientationMask",
+                "usr": "c:@E@UIInterfaceOrientationMask"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@GroundhogJokersBvais@objc(cs)GroundhogNbauehViewController(py)supportedInterfaceOrientations",
+            "mangledName": "$s20GroundhogJokersBvais0A20NbauehViewControllerC30supportedInterfaceOrientationsSo26UIInterfaceOrientationMaskVvp",
+            "moduleName": "GroundhogJokersBvais",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "supportedInterfaceOrientations",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIInterfaceOrientationMask",
+                    "printedName": "UIKit.UIInterfaceOrientationMask",
+                    "usr": "c:@E@UIInterfaceOrientationMask"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@GroundhogJokersBvais@objc(cs)GroundhogNbauehViewController(im)supportedInterfaceOrientations",
+                "mangledName": "$s20GroundhogJokersBvais0A20NbauehViewControllerC30supportedInterfaceOrientationsSo26UIInterfaceOrientationMaskVvg",
+                "moduleName": "GroundhogJokersBvais",
+                "overriding": true,
+                "isOpen": true,
+                "objc_name": "supportedInterfaceOrientations",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GroundhogNbauehViewController",
+                "printedName": "GroundhogJokersBvais.GroundhogNbauehViewController",
+                "usr": "c:@M@GroundhogJokersBvais@objc(cs)GroundhogNbauehViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@GroundhogJokersBvais@objc(cs)GroundhogNbauehViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s20GroundhogJokersBvais0A20NbauehViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "GroundhogJokersBvais",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "GroundhogJokersBvais.GroundhogNbauehViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GroundhogNbauehViewController",
+                    "printedName": "GroundhogJokersBvais.GroundhogNbauehViewController",
+                    "usr": "c:@M@GroundhogJokersBvais@objc(cs)GroundhogNbauehViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@GroundhogJokersBvais@objc(cs)GroundhogNbauehViewController(im)initWithCoder:",
+            "mangledName": "$s20GroundhogJokersBvais0A20NbauehViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "GroundhogJokersBvais",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@GroundhogJokersBvais@objc(cs)GroundhogNbauehViewController",
+        "mangledName": "$s20GroundhogJokersBvais0A20NbauehViewControllerC",
+        "moduleName": "GroundhogJokersBvais",
+        "isOpen": true,
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GroundhogNavigationController",
+        "printedName": "GroundhogNavigationController",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@GroundhogJokersBvais@objc(cs)GroundhogNavigationController(im)viewDidLoad",
+            "mangledName": "$s20GroundhogJokersBvais0A20NavigationControllerC11viewDidLoadyyF",
+            "moduleName": "GroundhogJokersBvais",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "shouldAutorotate",
+            "printedName": "shouldAutorotate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@GroundhogJokersBvais@objc(cs)GroundhogNavigationController(py)shouldAutorotate",
+            "mangledName": "$s20GroundhogJokersBvais0A20NavigationControllerC16shouldAutorotateSbvp",
+            "moduleName": "GroundhogJokersBvais",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "shouldAutorotate",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@GroundhogJokersBvais@objc(cs)GroundhogNavigationController(im)shouldAutorotate",
+                "mangledName": "$s20GroundhogJokersBvais0A20NavigationControllerC16shouldAutorotateSbvg",
+                "moduleName": "GroundhogJokersBvais",
+                "overriding": true,
+                "isOpen": true,
+                "objc_name": "shouldAutorotate",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "supportedInterfaceOrientations",
+            "printedName": "supportedInterfaceOrientations",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIInterfaceOrientationMask",
+                "printedName": "UIKit.UIInterfaceOrientationMask",
+                "usr": "c:@E@UIInterfaceOrientationMask"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@GroundhogJokersBvais@objc(cs)GroundhogNavigationController(py)supportedInterfaceOrientations",
+            "mangledName": "$s20GroundhogJokersBvais0A20NavigationControllerC30supportedInterfaceOrientationsSo26UIInterfaceOrientationMaskVvp",
+            "moduleName": "GroundhogJokersBvais",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "supportedInterfaceOrientations",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIInterfaceOrientationMask",
+                    "printedName": "UIKit.UIInterfaceOrientationMask",
+                    "usr": "c:@E@UIInterfaceOrientationMask"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@GroundhogJokersBvais@objc(cs)GroundhogNavigationController(im)supportedInterfaceOrientations",
+                "mangledName": "$s20GroundhogJokersBvais0A20NavigationControllerC30supportedInterfaceOrientationsSo26UIInterfaceOrientationMaskVvg",
+                "moduleName": "GroundhogJokersBvais",
+                "overriding": true,
+                "isOpen": true,
+                "objc_name": "supportedInterfaceOrientations",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(navigationBarClass:toolbarClass:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GroundhogNavigationController",
+                "printedName": "GroundhogJokersBvais.GroundhogNavigationController",
+                "usr": "c:@M@GroundhogJokersBvais@objc(cs)GroundhogNavigationController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any AnyObject.Type)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExistentialMetatype",
+                    "printedName": "any AnyObject.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "AnyObject"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any AnyObject.Type)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExistentialMetatype",
+                    "printedName": "any AnyObject.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "AnyObject"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@GroundhogJokersBvais@objc(cs)GroundhogNavigationController(im)initWithNavigationBarClass:toolbarClass:",
+            "mangledName": "$s20GroundhogJokersBvais0A20NavigationControllerC18navigationBarClass07toolbarH0ACyXlXpSg_AFtcfc",
+            "moduleName": "GroundhogJokersBvais",
+            "overriding": true,
+            "implicit": true,
+            "intro_iOS": "5.0",
+            "objc_name": "initWithNavigationBarClass:toolbarClass:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "Available"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rootViewController:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GroundhogNavigationController",
+                "printedName": "GroundhogJokersBvais.GroundhogNavigationController",
+                "usr": "c:@M@GroundhogJokersBvais@objc(cs)GroundhogNavigationController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@GroundhogJokersBvais@objc(cs)GroundhogNavigationController(im)initWithRootViewController:",
+            "mangledName": "$s20GroundhogJokersBvais0A20NavigationControllerC08rootViewE0ACSo06UIViewE0C_tcfc",
+            "moduleName": "GroundhogJokersBvais",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithRootViewController:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GroundhogNavigationController",
+                "printedName": "GroundhogJokersBvais.GroundhogNavigationController",
+                "usr": "c:@M@GroundhogJokersBvais@objc(cs)GroundhogNavigationController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@GroundhogJokersBvais@objc(cs)GroundhogNavigationController(im)initWithNibName:bundle:",
+            "mangledName": "$s20GroundhogJokersBvais0A20NavigationControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "GroundhogJokersBvais",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "GroundhogJokersBvais.GroundhogNavigationController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GroundhogNavigationController",
+                    "printedName": "GroundhogJokersBvais.GroundhogNavigationController",
+                    "usr": "c:@M@GroundhogJokersBvais@objc(cs)GroundhogNavigationController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@GroundhogJokersBvais@objc(cs)GroundhogNavigationController(im)initWithCoder:",
+            "mangledName": "$s20GroundhogJokersBvais0A20NavigationControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "GroundhogJokersBvais",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@GroundhogJokersBvais@objc(cs)GroundhogNavigationController",
+        "mangledName": "$s20GroundhogJokersBvais0A20NavigationControllerC",
+        "moduleName": "GroundhogJokersBvais",
+        "isOpen": true,
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UINavigationController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UINavigationController",
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GroundhogJokersBvais"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GroundhogPopyNasyd",
+        "printedName": "GroundhogPopyNasyd",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "groundhogXiurTyshMVc",
+            "printedName": "groundhogXiurTyshMVc(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20GroundhogJokersBvais0A9PopyNasydC20groundhogXiurTyshMVcyySo16UIViewControllerCFZ",
+            "mangledName": "$s20GroundhogJokersBvais0A9PopyNasydC20groundhogXiurTyshMVcyySo16UIViewControllerCFZ",
+            "moduleName": "GroundhogJokersBvais",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GroundhogPopyNasyd",
+                "printedName": "GroundhogJokersBvais.GroundhogPopyNasyd",
+                "usr": "s:20GroundhogJokersBvais0A9PopyNasydC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20GroundhogJokersBvais0A9PopyNasydCACycfc",
+            "mangledName": "$s20GroundhogJokersBvais0A9PopyNasydCACycfc",
+            "moduleName": "GroundhogJokersBvais",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:20GroundhogJokersBvais0A9PopyNasydC",
+        "mangledName": "$s20GroundhogJokersBvais0A9PopyNasydC",
+        "moduleName": "GroundhogJokersBvais",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GroundhogJokersBvais"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GroundhogJokersBvais"
+      },
+      {
+        "kind": "Function",
+        "name": "dpt",
+        "printedName": "dpt(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Swift.String?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:20GroundhogJokersBvais3dptySSSgSSF",
+        "mangledName": "$s20GroundhogJokersBvais3dptySSSgSSF",
+        "moduleName": "GroundhogJokersBvais",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Var",
+        "name": "kGroundhogBueoiTdoke",
+        "printedName": "kGroundhogBueoiTdoke",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:20GroundhogJokersBvais01kA10BueoiTdokeSSvp",
+        "mangledName": "$s20GroundhogJokersBvais01kA10BueoiTdokeSSvp",
+        "moduleName": "GroundhogJokersBvais",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "kGroundhogViruFryuao",
+        "printedName": "kGroundhogViruFryuao",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:20GroundhogJokersBvais01kA10ViruFryuaoSSvp",
+        "mangledName": "$s20GroundhogJokersBvais01kA10ViruFryuaoSSvp",
+        "moduleName": "GroundhogJokersBvais",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Function",
+        "name": "GroundhogCoiruTysh",
+        "printedName": "GroundhogCoiruTysh(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "UIViewController",
+            "printedName": "UIKit.UIViewController",
+            "usr": "c:objc(cs)UIViewController"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:20GroundhogJokersBvais0A9CoiruTyshyySo16UIViewControllerCF",
+        "mangledName": "$s20GroundhogJokersBvais0A9CoiruTyshyySo16UIViewControllerCF",
+        "moduleName": "GroundhogJokersBvais",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "GroundhogButyMarei",
+        "printedName": "GroundhogButyMarei(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "UIViewController",
+            "printedName": "UIKit.UIViewController",
+            "usr": "c:objc(cs)UIViewController"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:20GroundhogJokersBvais0A9ButyMareiyySo16UIViewControllerCF",
+        "mangledName": "$s20GroundhogJokersBvais0A9ButyMareiyySo16UIViewControllerCF",
+        "moduleName": "GroundhogJokersBvais",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "GroundhogLooppiyBurn",
+        "printedName": "GroundhogLooppiyBurn(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "GroundhogFadirtb",
+            "printedName": "GroundhogJokersBvais.GroundhogFadirtb",
+            "usr": "s:20GroundhogJokersBvais0A7FadirtbV"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:20GroundhogJokersBvais0A11LooppiyBurnyyAA0A7FadirtbVF",
+        "mangledName": "$s20GroundhogJokersBvais0A11LooppiyBurnyyAA0A7FadirtbVF",
+        "moduleName": "GroundhogJokersBvais",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "GroundhogDiauerTmmaj",
+        "printedName": "GroundhogDiauerTmmaj(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "GroundhogFadirtb",
+            "printedName": "GroundhogJokersBvais.GroundhogFadirtb",
+            "usr": "s:20GroundhogJokersBvais0A7FadirtbV"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:20GroundhogJokersBvais0A11DiauerTmmajyyAA0A7FadirtbVF",
+        "mangledName": "$s20GroundhogJokersBvais0A11DiauerTmmajyyAA0A7FadirtbVF",
+        "moduleName": "GroundhogJokersBvais",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GroundhogFadirtb",
+        "printedName": "GroundhogFadirtb",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "groundhogMoirus",
+            "printedName": "groundhogMoirus",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20GroundhogJokersBvais0A7FadirtbV15groundhogMoirusSSSgvp",
+            "mangledName": "$s20GroundhogJokersBvais0A7FadirtbV15groundhogMoirusSSSgvp",
+            "moduleName": "GroundhogJokersBvais",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20GroundhogJokersBvais0A7FadirtbV15groundhogMoirusSSSgvg",
+                "mangledName": "$s20GroundhogJokersBvais0A7FadirtbV15groundhogMoirusSSSgvg",
+                "moduleName": "GroundhogJokersBvais",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "groundhogBVcfse",
+            "printedName": "groundhogBVcfse",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20GroundhogJokersBvais0A7FadirtbV15groundhogBVcfseSSSgvp",
+            "mangledName": "$s20GroundhogJokersBvais0A7FadirtbV15groundhogBVcfseSSSgvp",
+            "moduleName": "GroundhogJokersBvais",
+            "declAttributes": [
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 1,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20GroundhogJokersBvais0A7FadirtbV15groundhogBVcfseSSSgvg",
+                "mangledName": "$s20GroundhogJokersBvais0A7FadirtbV15groundhogBVcfseSSSgvg",
+                "moduleName": "GroundhogJokersBvais",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "groundhogGoiidy",
+            "printedName": "groundhogGoiidy",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20GroundhogJokersBvais0A7FadirtbV15groundhogGoiidySSSgvp",
+            "mangledName": "$s20GroundhogJokersBvais0A7FadirtbV15groundhogGoiidySSSgvp",
+            "moduleName": "GroundhogJokersBvais",
+            "declAttributes": [
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 2,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20GroundhogJokersBvais0A7FadirtbV15groundhogGoiidySSSgvg",
+                "mangledName": "$s20GroundhogJokersBvais0A7FadirtbV15groundhogGoiidySSSgvg",
+                "moduleName": "GroundhogJokersBvais",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "groundhogMansuk",
+            "printedName": "groundhogMansuk",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20GroundhogJokersBvais0A7FadirtbV15groundhogMansukSSSgvp",
+            "mangledName": "$s20GroundhogJokersBvais0A7FadirtbV15groundhogMansukSSSgvp",
+            "moduleName": "GroundhogJokersBvais",
+            "declAttributes": [
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 3,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20GroundhogJokersBvais0A7FadirtbV15groundhogMansukSSSgvg",
+                "mangledName": "$s20GroundhogJokersBvais0A7FadirtbV15groundhogMansukSSSgvg",
+                "moduleName": "GroundhogJokersBvais",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "groundhogKiekbsg",
+            "printedName": "groundhogKiekbsg",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20GroundhogJokersBvais0A7FadirtbV16groundhogKiekbsgSSSgvp",
+            "mangledName": "$s20GroundhogJokersBvais0A7FadirtbV16groundhogKiekbsgSSSgvp",
+            "moduleName": "GroundhogJokersBvais",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 4,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20GroundhogJokersBvais0A7FadirtbV16groundhogKiekbsgSSSgvg",
+                "mangledName": "$s20GroundhogJokersBvais0A7FadirtbV16groundhogKiekbsgSSSgvg",
+                "moduleName": "GroundhogJokersBvais",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(groundhogMoirus:groundhogBVcfse:groundhogGoiidy:groundhogMansuk:groundhogKiekbsg:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GroundhogFadirtb",
+                "printedName": "GroundhogJokersBvais.GroundhogFadirtb",
+                "usr": "s:20GroundhogJokersBvais0A7FadirtbV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20GroundhogJokersBvais0A7FadirtbV15groundhogMoirus0E6BVcfse0E6Goiidy0E6Mansuk0E7KiekbsgACSSSg_A4Itcfc",
+            "mangledName": "$s20GroundhogJokersBvais0A7FadirtbV15groundhogMoirus0E6BVcfse0E6Goiidy0E6Mansuk0E7KiekbsgACSSSg_A4Itcfc",
+            "moduleName": "GroundhogJokersBvais",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GroundhogFadirtb",
+                "printedName": "GroundhogJokersBvais.GroundhogFadirtb",
+                "usr": "s:20GroundhogJokersBvais0A7FadirtbV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20GroundhogJokersBvais0A7FadirtbV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s20GroundhogJokersBvais0A7FadirtbV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "GroundhogJokersBvais",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20GroundhogJokersBvais0A7FadirtbV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s20GroundhogJokersBvais0A7FadirtbV6encode2toys7Encoder_p_tKF",
+            "moduleName": "GroundhogJokersBvais",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:20GroundhogJokersBvais0A7FadirtbV",
+        "mangledName": "$s20GroundhogJokersBvais0A7FadirtbV",
+        "moduleName": "GroundhogJokersBvais",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "GroundhogUndioMares",
+        "printedName": "GroundhogUndioMares()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:20GroundhogJokersBvais0A10UndioMaresSbyF",
+        "mangledName": "$s20GroundhogJokersBvais0A10UndioMaresSbyF",
+        "moduleName": "GroundhogJokersBvais",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "GroundhogVurudts",
+        "printedName": "GroundhogVurudts()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:20GroundhogJokersBvais0A7VurudtsSbyF",
+        "mangledName": "$s20GroundhogJokersBvais0A7VurudtsSbyF",
+        "moduleName": "GroundhogJokersBvais",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIColor",
+        "printedName": "UIColor",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(hex:alpha:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:So7UIColorC20GroundhogJokersBvaisE3hex5alphaABSi_14CoreFoundation7CGFloatVtcfc",
+            "mangledName": "$sSo7UIColorC20GroundhogJokersBvaisE3hex5alphaABSi_12CoreGraphics7CGFloatVtcfc",
+            "moduleName": "GroundhogJokersBvais",
+            "declAttributes": [
+              "Convenience"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(hexString:alpha:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:So7UIColorC20GroundhogJokersBvaisE9hexString5alphaABSgSS_14CoreFoundation7CGFloatVtcfc",
+            "mangledName": "$sSo7UIColorC20GroundhogJokersBvaisE9hexString5alphaABSgSS_12CoreGraphics7CGFloatVtcfc",
+            "moduleName": "GroundhogJokersBvais",
+            "declAttributes": [
+              "Convenience"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Convenience"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIColor",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIColor",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByColorLiteral",
+            "printedName": "_ExpressibleByColorLiteral",
+            "usr": "s:s26_ExpressibleByColorLiteralP",
+            "mangledName": "$ss26_ExpressibleByColorLiteralP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/08\/0828-2\/GroundhogJokersBvais\/GroundhogJokersBvais\/GroundhogJieesDadView.swift",
+      "kind": "Array",
+      "offset": 189,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/08\/0828-2\/GroundhogJokersBvais\/GroundhogJokersBvais\/GroundhogJieesDadView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 218,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/08\/0828-2\/GroundhogJokersBvais\/GroundhogJokersBvais\/GroundhogJieesDadView.swift",
+      "kind": "Array",
+      "offset": 461,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/08\/0828-2\/GroundhogJokersBvais\/GroundhogJokersBvais\/GroundhogJieesDadView.swift",
+      "kind": "Array",
+      "offset": 514,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/08\/0828-2\/GroundhogJokersBvais\/GroundhogJokersBvais\/GroundhogJieesDadView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 635,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/08\/0828-2\/GroundhogJokersBvais\/GroundhogJokersBvais\/GroundhogJieesDadView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 684,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/08\/0828-2\/GroundhogJokersBvais\/GroundhogJokersBvais\/GroundhogJieesDadView.swift",
+      "kind": "StringLiteral",
+      "offset": 750,
+      "length": 20,
+      "value": "\"Groundhog-circle-2\""
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/08\/0828-2\/GroundhogJokersBvais\/GroundhogJokersBvais\/GroundhogJieesDadView.swift",
+      "kind": "StringLiteral",
+      "offset": 826,
+      "length": 20,
+      "value": "\"Groundhog-circle-8\""
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/08\/0828-2\/GroundhogJokersBvais\/GroundhogJokersBvais\/GroundhogJieesDadView.swift",
+      "kind": "StringLiteral",
+      "offset": 905,
+      "length": 17,
+      "value": "\"Groundhog-Cover\""
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/08\/0828-2\/GroundhogJokersBvais\/GroundhogJokersBvais\/GroundhogJieesDadView.swift",
+      "kind": "StringLiteral",
+      "offset": 1153,
+      "length": 35,
+      "value": "\"Wires: \""
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/08\/0828-2\/GroundhogJokersBvais\/GroundhogJokersBvais\/GroundhogJieesDadView.swift",
+      "kind": "StringLiteral",
+      "offset": 1187,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/08\/0828-2\/GroundhogJokersBvais\/GroundhogJokersBvais\/GroundhogJieesDadView.swift",
+      "kind": "StringLiteral",
+      "offset": 1256,
+      "length": 17,
+      "value": "\"AvenirNext-Bold\""
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/08\/0828-2\/GroundhogJokersBvais\/GroundhogJokersBvais\/GroundhogJieesDadView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1281,
+      "length": 2,
+      "value": "18"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/08\/0828-2\/GroundhogJokersBvais\/GroundhogJokersBvais\/GroundhogJieesDadView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1332,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/08\/0828-2\/GroundhogJokersBvais\/GroundhogJokersBvais\/GroundhogJieesDadView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1344,
+      "length": 3,
+      "value": "0.7"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/08\/0828-2\/GroundhogJokersBvais\/GroundhogJokersBvais\/GroundhogJieesDadView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1422,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/08\/0828-2\/GroundhogJokersBvais\/GroundhogJokersBvais\/GroundhogJieesDadView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1460,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/08\/0828-2\/GroundhogJokersBvais\/GroundhogJokersBvais\/GroundhogJieesDadView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 16706,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/08\/0828-2\/GroundhogJokersBvais\/GroundhogJokersBvais\/GroundhogNbauehViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2918,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/08\/0828-2\/GroundhogJokersBvais\/GroundhogJokersBvais\/GroundhogYiosHnajre.swift",
+      "kind": "StringLiteral",
+      "offset": 498,
+      "length": 78,
+      "value": "\"tampra7n8vLr5b\/t7by47e6\/5bm\/7Ly45L7t7+Xt7OjzsLK+tryttPO0svK6r7Kos7nytbK6rg==\""
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/08\/0828-2\/GroundhogJokersBvais\/GroundhogJokersBvais\/GroundhogYiosHnajre.swift",
+      "kind": "StringLiteral",
+      "offset": 682,
+      "length": 98,
+      "value": "\"tampra7n8vKvvKrzurSptai\/qK64r76ys6m4s6nzvrKw8runt+\/q7eno7+rp6\/K6r7KoufKwvLSz8rqvsqizubWyuvOts7o=\""
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/08\/0828-2\/GroundhogJokersBvais\/GroundhogJokersBvais\/GroundhogYiosHnajre.swift",
+      "kind": "FloatLiteral",
+      "offset": 5847,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/08\/0828-2\/GroundhogJokersBvais\/GroundhogJokersBvais\/GroundhogYiosHnajre.swift",
+      "kind": "FloatLiteral",
+      "offset": 6142,
+      "length": 3,
+      "value": "1.0"
+    }
+  ]
+}
