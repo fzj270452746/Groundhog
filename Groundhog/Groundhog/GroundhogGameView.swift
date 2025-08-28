@@ -40,11 +40,11 @@ struct GroundhogGameView: View {
                         }
                     )
                     .padding(.horizontal, groundhogPadding(for: geometry))
-                    .padding(.top, 8)
+                    .padding(.top, 4)
                     
                     // Game Instructions
                     if groundhogGameManager.groundhogGameState == .ready {
-                        VStack(spacing: 8) {
+                        VStack(spacing: 4) {
                             Text("Find matching pairs!")
                                 .font(.system(size: groundhogInstructionSize(for: geometry), weight: .semibold, design: .rounded))
                                 .foregroundColor(.white)
@@ -54,12 +54,12 @@ struct GroundhogGameView: View {
                                 .font(.system(size: groundhogInstructionSize(for: geometry) - 4, weight: .medium, design: .rounded))
                                 .foregroundColor(.white.opacity(0.8))
                         }
-                        .padding(.vertical, 8)
+                        .padding(.vertical, 4)
                     }
                     
                     // Top Cards Grid
                     if !groundhogGameManager.groundhogTopCards.isEmpty {
-                        VStack(spacing: 8) {
+                        VStack(spacing: 4) {
                             Text("Top Cards")
                                 .font(.system(size: 16, weight: .semibold, design: .rounded))
                                 .foregroundColor(.white.opacity(0.9))
@@ -80,7 +80,7 @@ struct GroundhogGameView: View {
                     
                     // Bottom Cards Grid
                     if !groundhogGameManager.groundhogBottomCards.isEmpty {
-                        VStack(spacing: 8) {
+                        VStack(spacing: 4) {
                             Text("Bottom Cards")
                                 .font(.system(size: 16, weight: .semibold, design: .rounded))
                                 .foregroundColor(.white.opacity(0.9))
@@ -292,7 +292,7 @@ struct GroundhogCardGridView: View {
     let onCardTap: (GroundhogCard) -> Void
     
     private let gridColumns = Array(repeating: GridItem(.flexible(), spacing: groundhogGridSpacing), count: 4)
-    private static let groundhogGridSpacing: CGFloat = 8
+    private static let groundhogGridSpacing: CGFloat = 2  // Further reduced for compact layout
     
     var body: some View {
         LazyVGrid(columns: gridColumns, spacing: Self.groundhogGridSpacing) {
@@ -318,7 +318,7 @@ struct GroundhogCardGridView: View {
     }
     
     private func groundhogGridPadding(for geometry: GeometryProxy) -> CGFloat {
-        return geometry.size.width * 0.02
+        return geometry.size.width * 0.008  // Reduced for more compact layout
     }
 }
 
@@ -369,9 +369,9 @@ struct GroundhogCardView: View {
     }
     
     private var groundhogCardSize: CGFloat {
-        let availableWidth = geometry.size.width - 80 // Account for padding and spacing
-        let cardWidth = availableWidth / 4 - 8 // 4 cards per row minus spacing
-        return max(min(cardWidth, 60), 30) // Ensure minimum size of 30 and maximum of 60
+        let availableWidth = geometry.size.width - 60 // Reduced padding account
+        let cardWidth = availableWidth / 4 - 4 // 4 cards per row minus reduced spacing
+        return max(min(cardWidth, 45), 25) // Reduced maximum from 60 to 45, minimum from 30 to 25
     }
     
     private var groundhogScaleEffect: CGFloat {

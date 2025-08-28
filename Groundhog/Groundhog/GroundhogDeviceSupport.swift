@@ -90,17 +90,17 @@ struct GroundhogResponsiveLayout {
     var groundhogCardSpacing: CGFloat {
         switch device.groundhogScreenSize {
         case .iphoneRegular:
-            return 6
+            return 3  // Reduced for better space utilization
         case .iphoneCompact, .iphonePro:
-            return 8
+            return 4  // Reduced for better space utilization
         case .iphoneProMax, .iphonePlus:
-            return 10
+            return 5  // Reduced for better space utilization
         case .ipadRegular:
-            return 12
+            return 6  // Reduced for better space utilization
         case .ipadPro11:
-            return 14
+            return 7  // Reduced for better space utilization
         case .ipadPro12_9:
-            return 16
+            return 8  // Reduced for better space utilization
         }
     }
     
@@ -166,17 +166,17 @@ struct GroundhogResponsiveLayout {
         
         switch device.groundhogScreenSize {
         case .iphoneRegular:
-            return min(cardWidth, 50)  // Reduced from 70
+            return min(cardWidth, 40)  // Further reduced for compatibility mode
         case .iphoneCompact, .iphonePro:
-            return min(cardWidth, 60)  // Reduced from 80
+            return min(cardWidth, 45)  // Further reduced for compatibility mode
         case .iphoneProMax, .iphonePlus:
-            return min(cardWidth, 70)  // Reduced from 90
+            return min(cardWidth, 50)  // Further reduced for compatibility mode
         case .ipadRegular:
-            return min(cardWidth, 90)  // Reduced from 120
+            return min(cardWidth, 55)  // Significantly reduced for iPad compatibility mode
         case .ipadPro11:
-            return min(cardWidth, 110) // Reduced from 140
+            return min(cardWidth, 60)  // Significantly reduced for iPad compatibility mode
         case .ipadPro12_9:
-            return min(cardWidth, 130) // Reduced from 160
+            return min(cardWidth, 65)  // Significantly reduced for iPad compatibility mode
         }
     }
     
@@ -185,17 +185,17 @@ struct GroundhogResponsiveLayout {
     var groundhogHorizontalPadding: CGFloat {
         switch device.groundhogScreenSize {
         case .iphoneRegular:
-            return 16
+            return 8   // Reduced to maximize card space
         case .iphoneCompact, .iphonePro:
-            return 20
+            return 10  // Reduced to maximize card space
         case .iphoneProMax, .iphonePlus:
-            return 24
+            return 12  // Reduced to maximize card space
         case .ipadRegular:
-            return 40
+            return 20  // Reduced to maximize card space
         case .ipadPro11:
-            return 60
+            return 30  // Reduced to maximize card space
         case .ipadPro12_9:
-            return 80
+            return 40  // Reduced to maximize card space
         }
     }
     

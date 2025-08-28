@@ -352,3 +352,4 @@ struct GroundhogConfettiPiece: Identifiable {
     let groundhogFallDuration: Double
     var groundhogOpacity: Double
 }
+

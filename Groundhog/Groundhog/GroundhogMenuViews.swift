@@ -434,3 +434,4 @@ struct GroundhogStatRow: View {
         return baseSize * scaleFactor
     }
 }
+
